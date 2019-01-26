@@ -1,9 +1,0 @@
-﻿  ExpectedForce.cpp
-c:\users\lenovo\igraph\expected_force\expected_force\expectedforce.cpp(28): warning C4244: 'argument': conversion from 'igraph_real_t' to 'const _Ty', possible loss of data
-          with
-          [
-              _Ty=int
-          ]
-c:\users\lenovo\igraph\expected_force\expected_force\expectedforce.cpp(36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-c:\users\lenovo\igraph\expected_force\expected_force\expectedforce.cpp(91): warning C4244: 'initializing': conversion from 'igraph_real_t' to 'int', possible loss of data
-  Expected_Force.vcxproj -> C:\Users\lenovo\Igraph\expected_force\x64\Debug\Expected_Force.exe
