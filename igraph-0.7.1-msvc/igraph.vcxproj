@@ -1,0 +1,1829 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{54FFF7B3-3249-4BBE-93D2-71C11ABF0A6C}</ProjectGuid>
+    <RootNamespace>igraph</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>15.0.28127.55</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)src;$(ProjectDir)winclude;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>Win32;WIN32;_WINDOWS;_USRDLL;NCOMPLEX;IGRAPH_EXPORTS;USE_CLOCK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat />
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)src;$(ProjectDir)winclude;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>Win64;WIN64;_WINDOWS;_USRDLL;NCOMPLEX;IGRAPH_EXPORTS;USE_CLOCK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat />
+      <AdditionalOptions>/DPRPACK_IGRAPH_SUPPORT=1 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)src;$(ProjectDir)winclude;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>Win32;WIN32;_DEBUG;_WINDOWS;_USRDLL;NCOMPLEX;IGRAPH_EXPORTS;USE_CLOCK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)src;$(ProjectDir)winclude;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>Win64;WIN64;_DEBUG;_WINDOWS;_USRDLL;NCOMPLEX;IGRAPH_EXPORTS;USE_CLOCK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalOptions>/DPRPACK_IGRAPH_SUPPORT=1 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\adjlist.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\arpack.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\array.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\atlas.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\attributes.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\basic_query.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\bfgs.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\bigint.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\bignum.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\bipartite.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\blas.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\bliss.cc" />
+    <ClCompile Include="src\bliss_eqrefhash.cc" />
+    <ClCompile Include="src\bliss_graph.cc" />
+    <ClCompile Include="src\bliss_heap.cc" />
+    <ClCompile Include="src\bliss_orbit.cc" />
+    <ClCompile Include="src\bliss_partition.cc" />
+    <ClCompile Include="src\bliss_timer.cc" />
+    <ClCompile Include="src\bliss_utils.cc" />
+    <ClCompile Include="src\cattributes.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\centrality.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cliques.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\clustertool.cpp" />
+    <ClCompile Include="src\cocitation.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cohesive_blocks.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\community.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\complex.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\components.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\conversion.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cores.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_add.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_amd.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_chol.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_cholsol.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_compress.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_counts.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_cumsum.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_dfs.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_dmperm.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_droptol.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_dropzeros.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_dupl.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_entry.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_ereach.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_etree.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_fkeep.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_gaxpy.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_happly.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_house.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_ipvec.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_leaf.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_load.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_lsolve.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_ltsolve.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_lu.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_lusol.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_malloc.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_maxtrans.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_multiply.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_norm.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_permute.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_pinv.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_post.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_print.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_pvec.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_qr.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_qrsol.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_randperm.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_reach.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_scatter.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_scc.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_schol.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_spsolve.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_sqr.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_symperm.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_tdfs.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_transpose.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_updown.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_usolve.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_util.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\cs\cs_utsolve.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\decomposition.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\DensityGrid.cpp" />
+    <ClCompile Include="src\DensityGrid_3d.cpp" />
+    <ClCompile Include="src\distances.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\dqueue.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\drl_graph.cpp" />
+    <ClCompile Include="src\drl_graph_3d.cpp" />
+    <ClCompile Include="src\drl_layout.cpp" />
+    <ClCompile Include="src\drl_layout_3d.cpp" />
+    <ClCompile Include="src\drl_parse.cpp" />
+    <ClCompile Include="src\eigen.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\evolver_cit.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\abort_.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\backspac.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\cabs.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\close.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\ctype.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\c_abs.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\c_cos.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\c_div.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\c_exp.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\c_log.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\c_sin.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\c_sqrt.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\derfc_.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\derf_.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\dfe.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\dolio.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\dtime_.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\due.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\dummy.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\d_abs.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\d_acos.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\d_asin.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\d_atan.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\d_atn2.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\d_cnjg.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\d_cos.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\d_cosh.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\d_dim.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\d_exp.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\d_imag.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\d_int.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\d_lg10.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\d_log.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\d_mod.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\d_nint.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\d_prod.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\d_sign.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\d_sin.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\d_sinh.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\d_sqrt.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\d_tan.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\d_tanh.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\ef1asc_.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\ef1cmc_.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\endfile.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\erfc_.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\erf_.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\err.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\etime_.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\exit_.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\f77vers.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\f77_aloc.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\fmt.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\fmtlib.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\ftell_.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\getenv_.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\hl_ge.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\hl_gt.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\hl_le.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\hl_lt.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\h_abs.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\h_dim.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\h_dnnt.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\h_indx.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\h_len.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\h_mod.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\h_nint.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\h_sign.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\i77vers.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\iio.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\ilnw.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\inquire.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\i_abs.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\i_dim.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\i_dnnt.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\i_indx.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\i_len.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\i_mod.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\i_nint.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\i_sign.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\lbitbits.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\lbitshft.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\lread.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\lwrite.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\l_ge.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\l_gt.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\l_le.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\l_lt.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\open.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\pow_ci.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\pow_dd.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\pow_di.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\pow_hh.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\pow_ii.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\pow_ri.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\pow_zi.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\pow_zz.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\rdfmt.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\rewind.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\rsfe.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\rsli.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\rsne.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\r_abs.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\r_acos.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\r_asin.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\r_atan.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\r_atn2.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\r_cnjg.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\r_cos.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\r_cosh.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\r_dim.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\r_exp.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\r_imag.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\r_int.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\r_lg10.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\r_log.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\r_mod.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\r_nint.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\r_sign.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\r_sin.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\r_sinh.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\r_sqrt.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\r_tan.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\r_tanh.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\sfe.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\signal_.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\signbit.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\sig_die.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\sue.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\system_.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\s_cat.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\s_cmp.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\s_copy.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\s_paus.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\s_rnge.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\s_stop.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\typesize.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\uio.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\uninit.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\util.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\wref.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\wrtfmt.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\wsfe.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\wsle.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\wsne.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\xwsne.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\z_abs.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\z_cos.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\z_div.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\z_exp.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\z_log.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\z_sin.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\f2c\z_sqrt.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\fast_community.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\feedback_arc_set.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\flow.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\foreign-dl-lexer.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\foreign-dl-parser.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\foreign-gml-lexer.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\foreign-gml-parser.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\foreign-graphml.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\foreign-lgl-lexer.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\foreign-lgl-parser.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\foreign-ncol-lexer.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\foreign-ncol-parser.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\foreign-pajek-lexer.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\foreign-pajek-parser.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\foreign.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\forestfire.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\fortran_intrinsics.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\games.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\gengraph_box_list.cpp" />
+    <ClCompile Include="src\gengraph_degree_sequence.cpp" />
+    <ClCompile Include="src\gengraph_graph_molloy_hash.cpp" />
+    <ClCompile Include="src\gengraph_graph_molloy_optimized.cpp" />
+    <ClCompile Include="src\gengraph_mr-connected.cpp" />
+    <ClCompile Include="src\gengraph_powerlaw.cpp" />
+    <ClCompile Include="src\gengraph_random.cpp" />
+    <ClCompile Include="src\glet.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\glpk_support.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\gml_tree.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\hacks.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\heap.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\igraph_buckets.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\igraph_error.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\igraph_estack.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\igraph_fixed_vectorlist.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\igraph_grid.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\igraph_hashtable.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\igraph_heap.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\igraph_hrg.cc" />
+    <ClCompile Include="src\igraph_hrg_types.cc" />
+    <ClCompile Include="src\igraph_marked_queue.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\igraph_psumtree.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\igraph_set.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\igraph_stack.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\igraph_strvector.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\igraph_trie.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\infomap.cc" />
+    <ClCompile Include="src\infomap_FlowGraph.cc" />
+    <ClCompile Include="src\infomap_Greedy.cc" />
+    <ClCompile Include="src\infomap_Node.cc" />
+    <ClCompile Include="src\interrupt.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\iterators.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lad.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dasum.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\daxpy.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dcopy.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\ddot.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dgebak.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dgebal.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dgeev.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dgeevx.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dgehd2.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dgehrd.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dgemm.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dgemv.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dgeqr2.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dger.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dgesv.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dgetf2.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dgetrf.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dgetrs.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dgetv0.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dhseqr.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\disnan.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlabad.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlacn2.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlacpy.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dladiv.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlae2.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlaebz.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlaev2.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlaexc.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlagtf.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlagts.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlahqr.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlahr2.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlaisnan.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlaln2.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlamch.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlaneg.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlange.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlanhs.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlanst.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlansy.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlanv2.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlapy2.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlaqr0.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlaqr1.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlaqr2.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlaqr3.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlaqr4.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlaqr5.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlaqrb.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlaqtr.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlar1v.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlarf.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlarfb.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlarfg.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlarft.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlarfx.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlarnv.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlarra.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlarrb.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlarrc.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlarrd.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlarre.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlarrf.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlarrj.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlarrk.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlarrr.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlarrv.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlartg.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlaruv.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlascl.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlaset.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlasq2.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlasq3.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlasq4.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlasq5.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlasq6.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlasr.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlasrt.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlassq.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlaswp.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlasy2.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dlatrd.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dmout.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dnaitr.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dnapps.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dnaup2.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dnaupd.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dnconv.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dneigh.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dneupd.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dngets.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dnrm2.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dorg2r.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dorghr.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dorgqr.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dorm2l.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dorm2r.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dormhr.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dormql.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dormqr.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dormtr.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\drot.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dsaitr.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dsapps.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dsaup2.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dsaupd.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dscal.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dsconv.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dseigt.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dsesrt.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dseupd.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dsgets.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dsortc.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dsortr.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dstatn.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dstats.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dstebz.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dstein.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dstemr.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dsteqr.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dsterf.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dstqrb.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dswap.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dsyevr.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dsymv.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dsyr2.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dsyr2k.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dsytd2.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dsytrd.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dtrevc.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dtrexc.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dtrmm.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dtrmv.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dtrsen.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dtrsm.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dtrsna.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dtrsyl.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\dvout.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\idamax.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\ieeeck.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\iladlc.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\iladlr.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\ilaenv.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\iparmq.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\ivout.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\len_trim.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\lsame.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\second.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\lapack\xerbla.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\layout.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\matching.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\math.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\matrix.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\maximal_cliques.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\memory.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\microscopic_update.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\mixing.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\motifs.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\NetDataTypes.cpp" />
+    <ClCompile Include="src\NetRoutines.cpp" />
+    <ClCompile Include="src\operators.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\optimal_modularity.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\other.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\plfit\error.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\plfit\gss.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\plfit\kolmogorov.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\plfit\lbfgs.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\plfit\options.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\plfit\plfit.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\plfit\zeta.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\pottsmodel_2.cpp" />
+    <ClCompile Include="src\progress.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\prpack.cpp" />
+    <ClCompile Include="src\qsort.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\qsort_r.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\random.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\revolver_cit.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\revolver_grow.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\revolver_ml_cit.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\sbm.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\scg.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\scg_approximate_methods.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\scg_exact_scg.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\scg_kmeans.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\scg_optimal_method.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\scg_utils.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\separators.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\sir.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\spanning_trees.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\sparsemat.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\spectral_properties.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\spmatrix.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\st-cuts.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\statusbar.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\structural_properties.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\structure_generators.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\sugiyama.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\topology.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\triangles.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\types.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\type_indexededgelist.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\vector.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\vector_ptr.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\version.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\visitors.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="src\walktrap.cpp" />
+    <ClCompile Include="src\walktrap_communities.cpp" />
+    <ClCompile Include="src\walktrap_graph.cpp" />
+    <ClCompile Include="src\walktrap_heap.cpp" />
+    <ClCompile Include="src\zeroin.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\igraph.h" />
+    <ClInclude Include="include\igraph_adjlist.h" />
+    <ClInclude Include="include\igraph_arpack.h" />
+    <ClInclude Include="include\igraph_array.h" />
+    <ClInclude Include="include\igraph_array_pmt.h" />
+    <ClInclude Include="include\igraph_attributes.h" />
+    <ClInclude Include="include\igraph_bipartite.h" />
+    <ClInclude Include="include\igraph_blas.h" />
+    <ClInclude Include="include\igraph_centrality.h" />
+    <ClInclude Include="include\igraph_cliques.h" />
+    <ClInclude Include="include\igraph_cocitation.h" />
+    <ClInclude Include="include\igraph_cohesive_blocks.h" />
+    <ClInclude Include="include\igraph_community.h" />
+    <ClInclude Include="include\igraph_complex.h" />
+    <ClInclude Include="include\igraph_components.h" />
+    <ClInclude Include="include\igraph_constants.h" />
+    <ClInclude Include="include\igraph_constructors.h" />
+    <ClInclude Include="include\igraph_conversion.h" />
+    <ClInclude Include="include\igraph_datatype.h" />
+    <ClInclude Include="include\igraph_dqueue.h" />
+    <ClInclude Include="include\igraph_dqueue_pmt.h" />
+    <ClInclude Include="include\igraph_eigen.h" />
+    <ClInclude Include="include\igraph_epidemics.h" />
+    <ClInclude Include="include\igraph_error.h" />
+    <ClInclude Include="include\igraph_flow.h" />
+    <ClInclude Include="include\igraph_foreign.h" />
+    <ClInclude Include="include\igraph_games.h" />
+    <ClInclude Include="include\igraph_graphlets.h" />
+    <ClInclude Include="include\igraph_heap.h" />
+    <ClInclude Include="include\igraph_heap_pmt.h" />
+    <ClInclude Include="include\igraph_hrg.h" />
+    <ClInclude Include="include\igraph_interface.h" />
+    <ClInclude Include="include\igraph_interrupt.h" />
+    <ClInclude Include="include\igraph_iterators.h" />
+    <ClInclude Include="include\igraph_lapack.h" />
+    <ClInclude Include="include\igraph_layout.h" />
+    <ClInclude Include="include\igraph_matching.h" />
+    <ClInclude Include="include\igraph_matrix.h" />
+    <ClInclude Include="include\igraph_matrix_pmt.h" />
+    <ClInclude Include="include\igraph_memory.h" />
+    <ClInclude Include="include\igraph_microscopic_update.h" />
+    <ClInclude Include="include\igraph_mixing.h" />
+    <ClInclude Include="include\igraph_motifs.h" />
+    <ClInclude Include="include\igraph_neighborhood.h" />
+    <ClInclude Include="include\igraph_nongraph.h" />
+    <ClInclude Include="include\igraph_operators.h" />
+    <ClInclude Include="include\igraph_paths.h" />
+    <ClInclude Include="include\igraph_pmt.h" />
+    <ClInclude Include="include\igraph_pmt_off.h" />
+    <ClInclude Include="include\igraph_progress.h" />
+    <ClInclude Include="include\igraph_psumtree.h" />
+    <ClInclude Include="include\igraph_qsort.h" />
+    <ClInclude Include="include\igraph_random.h" />
+    <ClInclude Include="include\igraph_revolver.h" />
+    <ClInclude Include="include\igraph_scg.h" />
+    <ClInclude Include="include\igraph_separators.h" />
+    <ClInclude Include="include\igraph_sparsemat.h" />
+    <ClInclude Include="include\igraph_spmatrix.h" />
+    <ClInclude Include="include\igraph_stack.h" />
+    <ClInclude Include="include\igraph_stack_pmt.h" />
+    <ClInclude Include="include\igraph_statusbar.h" />
+    <ClInclude Include="include\igraph_structural.h" />
+    <ClInclude Include="include\igraph_strvector.h" />
+    <ClInclude Include="include\igraph_threading.h" />
+    <ClInclude Include="include\igraph_topology.h" />
+    <ClInclude Include="include\igraph_transitivity.h" />
+    <ClInclude Include="include\igraph_types.h" />
+    <ClInclude Include="include\igraph_vector.h" />
+    <ClInclude Include="include\igraph_vector_pmt.h" />
+    <ClInclude Include="include\igraph_vector_ptr.h" />
+    <ClInclude Include="include\igraph_vector_type.h" />
+    <ClInclude Include="include\igraph_version.h" />
+    <ClInclude Include="include\igraph_visitor.h" />
+    <ClInclude Include="src\atlas-edges.h" />
+    <ClInclude Include="src\bigint.h" />
+    <ClInclude Include="src\bignum.h" />
+    <ClInclude Include="src\bliss_bignum.hh" />
+    <ClInclude Include="src\bliss_defs.hh" />
+    <ClInclude Include="src\bliss_eqrefhash.hh" />
+    <ClInclude Include="src\bliss_graph.hh" />
+    <ClInclude Include="src\bliss_heap.hh" />
+    <ClInclude Include="src\bliss_kqueue.hh" />
+    <ClInclude Include="src\bliss_kstack.hh" />
+    <ClInclude Include="src\bliss_orbit.hh" />
+    <ClInclude Include="src\bliss_partition.hh" />
+    <ClInclude Include="src\bliss_timer.hh" />
+    <ClInclude Include="src\bliss_utils.hh" />
+    <ClInclude Include="src\cs\cs.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\cs\UFconfig.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\DensityGrid.h" />
+    <ClInclude Include="src\DensityGrid_3d.h" />
+    <ClInclude Include="src\drl_graph.h" />
+    <ClInclude Include="src\drl_graph_3d.h" />
+    <ClInclude Include="src\drl_layout.h" />
+    <ClInclude Include="src\drl_layout_3d.h" />
+    <ClInclude Include="src\drl_Node.h" />
+    <ClInclude Include="src\drl_Node_3d.h" />
+    <ClInclude Include="src\drl_parse.h" />
+    <ClInclude Include="src\f2c.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\f2c\fio.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\f2c\fmt.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\f2c\fp.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\f2c\lio.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\f2c\signal1.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\f2c\sysdep1.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\foreign-dl-header.h" />
+    <ClInclude Include="src\foreign-dl-parser.h" />
+    <ClInclude Include="src\foreign-gml-header.h" />
+    <ClInclude Include="src\foreign-gml-parser.h" />
+    <ClInclude Include="src\foreign-lgl-header.h" />
+    <ClInclude Include="src\foreign-lgl-parser.h" />
+    <ClInclude Include="src\foreign-ncol-header.h" />
+    <ClInclude Include="src\foreign-ncol-parser.h" />
+    <ClInclude Include="src\foreign-pajek-header.h" />
+    <ClInclude Include="src\foreign-pajek-parser.h" />
+    <ClInclude Include="src\gengraph_box_list.h" />
+    <ClInclude Include="src\gengraph_definitions.h" />
+    <ClInclude Include="src\gengraph_degree_sequence.h" />
+    <ClInclude Include="src\gengraph_graph_molloy_hash.h" />
+    <ClInclude Include="src\gengraph_graph_molloy_optimized.h" />
+    <ClInclude Include="src\gengraph_hash.h" />
+    <ClInclude Include="src\gengraph_header.h" />
+    <ClInclude Include="src\gengraph_powerlaw.h" />
+    <ClInclude Include="src\gengraph_qsort.h" />
+    <ClInclude Include="src\gengraph_random.h" />
+    <ClInclude Include="src\gengraph_vertex_cover.h" />
+    <ClInclude Include="src\hrg_dendro.h" />
+    <ClInclude Include="src\hrg_graph.h" />
+    <ClInclude Include="src\hrg_graph_simp.h" />
+    <ClInclude Include="src\hrg_rbtree.h" />
+    <ClInclude Include="src\hrg_splittree_eq.h" />
+    <ClInclude Include="src\igraph_arpack_internal.h" />
+    <ClInclude Include="src\igraph_blas_internal.h" />
+    <ClInclude Include="src\igraph_estack.h" />
+    <ClInclude Include="src\igraph_flow_internal.h" />
+    <ClInclude Include="src\igraph_glpk_support.h" />
+    <ClInclude Include="src\igraph_gml_tree.h" />
+    <ClInclude Include="src\igraph_hacks_internal.h" />
+    <ClInclude Include="src\igraph_interrupt_internal.h" />
+    <ClInclude Include="src\igraph_lapack_internal.h" />
+    <ClInclude Include="src\igraph_marked_queue.h" />
+    <ClInclude Include="src\igraph_math.h" />
+    <ClInclude Include="src\igraph_types_internal.h" />
+    <ClInclude Include="src\infomap_FlowGraph.h" />
+    <ClInclude Include="src\infomap_Greedy.h" />
+    <ClInclude Include="src\infomap_Node.h" />
+    <ClInclude Include="src\maximal_cliques_template.h" />
+    <ClInclude Include="src\NetDataTypes.h" />
+    <ClInclude Include="src\NetRoutines.h" />
+    <ClInclude Include="src\plfit\arithmetic_ansi.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\plfit\arithmetic_sse_double.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\plfit\arithmetic_sse_float.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\plfit\error.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\plfit\gss.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\plfit\kolmogorov.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\plfit\lbfgs.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\plfit\platform.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\plfit\plfit.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\plfit\zeta.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\pottsmodel_2.h" />
+    <ClInclude Include="src\prpack.h" />
+    <ClInclude Include="src\scg_headers.h" />
+    <ClInclude Include="src\triangles_template.h" />
+    <ClInclude Include="src\triangles_template1.h" />
+    <ClInclude Include="src\walktrap_communities.h" />
+    <ClInclude Include="src\walktrap_graph.h" />
+    <ClInclude Include="src\walktrap_heap.h" />
+    <ClInclude Include="winclude\config.h" />
+    <ClInclude Include="winclude\unistd.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\array.pmt">
+      <FileType>CppHeader</FileType>
+    </None>
+    <None Include="src\dqueue.pmt">
+      <FileType>CppHeader</FileType>
+    </None>
+    <None Include="src\f2c\signal1.h0">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="src\f2c\sysdep1.h0">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="src\heap.pmt">
+      <FileType>CppHeader</FileType>
+    </None>
+    <None Include="src\matrix.pmt">
+      <FileType>CppHeader</FileType>
+    </None>
+    <None Include="src\stack.pmt">
+      <FileType>CppHeader</FileType>
+    </None>
+    <None Include="src\vector.pmt">
+      <FileType>CppHeader</FileType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,1838 @@
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  zeroin.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  visitors.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  version.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\version.c(64): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+  vector_ptr.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  vector.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  type_indexededgelist.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  types.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\types.c(79): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1961): note: see declaration of '_snprintf'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\types.c(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1961): note: see declaration of '_snprintf'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\types.c(84): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1961): note: see declaration of '_snprintf'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\types.c(86): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1961): note: see declaration of '_snprintf'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\types.c(90): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1961): note: see declaration of '_snprintf'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\types.c(132): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1961): note: see declaration of '_snprintf'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\types.c(134): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1961): note: see declaration of '_snprintf'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\types.c(137): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1961): note: see declaration of '_snprintf'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\types.c(139): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1961): note: see declaration of '_snprintf'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\types.c(143): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1961): note: see declaration of '_snprintf'
+  triangles.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  topology.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  sugiyama.c
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): warning C4005: 'isnan': macro redefinition
+  c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  structure_generators.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  structural_properties.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  statusbar.c
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): warning C4005: 'isnan': macro redefinition
+  c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): note: see previous definition of 'isnan'
+  st-cuts.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  spmatrix.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  spectral_properties.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  sparsemat.c
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): warning C4005: 'isnan': macro redefinition
+  c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): note: see previous definition of 'isnan'
+  spanning_trees.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  sir.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\sir.c(160): warning C4244: 'function': conversion from 'time_t' to 'unsigned long', possible loss of data
+  separators.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  Generating Code...
+  Compiling...
+  scg_utils.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\scg_utils.c(85): warning C4028: formal parameter 1 different from declaration
+  scg_optimal_method.c
+  scg_kmeans.c
+  scg_exact_scg.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\scg_exact_scg.c(37): warning C4028: formal parameter 3 different from declaration
+  scg_approximate_methods.c
+  scg.c
+  sbm.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\sbm.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\sbm.c(116): warning C4244: 'function': conversion from 'time_t' to 'unsigned long', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\sbm.c(132): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\sbm.c(133): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\sbm.c(142): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\sbm.c(143): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\sbm.c(152): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\sbm.c(153): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\sbm.c(163): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\sbm.c(164): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\sbm.c(173): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\sbm.c(174): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\sbm.c(183): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\sbm.c(184): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\sbm.c(193): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\sbm.c(194): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  revolver_ml_cit.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  revolver_grow.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  revolver_cit.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  random.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\random.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  qsort_r.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\qsort.c(141): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\qsort.c(149): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\qsort.c(156): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\qsort.c(164): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\qsort.c(172): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\qsort.c(179): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\qsort.c(189): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\qsort.c(194): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\qsort.c(196): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\qsort.c(198): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\qsort.c(204): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  qsort.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\qsort.c(141): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\qsort.c(149): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\qsort.c(156): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\qsort.c(164): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\qsort.c(172): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\qsort.c(179): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\qsort.c(189): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\qsort.c(194): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\qsort.c(196): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\qsort.c(198): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\qsort.c(204): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  progress.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  zeta.c
+  plfit.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\plfit\platform.h(40): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\plfit\platform.h(41): warning C4005: 'isfinite': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(274): note: see previous definition of 'isfinite'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\plfit\plfit.c(188): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\plfit\plfit.c(336): warning C4244: 'function': conversion from 'size_t' to 'double', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\plfit\plfit.c(362): warning C4244: 'function': conversion from 'size_t' to 'double', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\plfit\plfit.c(617): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
+  options.c
+  lbfgs.c
+  kolmogorov.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\plfit\kolmogorov.c(61): warning C4244: 'function': conversion from 'size_t' to 'double', possible loss of data
+  gss.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\plfit\platform.h(40): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\plfit\platform.h(41): warning C4005: 'isfinite': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(274): note: see previous definition of 'isfinite'
+  Generating Code...
+  Compiling...
+  error.c
+  other.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  optimal_modularity.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  operators.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  motifs.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  mixing.c
+  microscopic_update.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\microscopic_update.c(772): warning C4244: 'function': conversion from 'time_t' to 'unsigned long', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\microscopic_update.c(820): warning C4244: 'function': conversion from 'time_t' to 'unsigned long', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\microscopic_update.c(1003): warning C4244: 'function': conversion from 'time_t' to 'unsigned long', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\microscopic_update.c(1153): warning C4244: 'function': conversion from 'time_t' to 'unsigned long', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\microscopic_update.c(1165): warning C4244: 'function': conversion from 'time_t' to 'unsigned long', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\microscopic_update.c(1178): warning C4244: 'function': conversion from 'time_t' to 'unsigned long', possible loss of data
+  memory.c
+  maximal_cliques.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  matrix.c
+  math.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\math.c(32): warning C4005: 'isinf': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(275): note: see previous definition of 'isinf'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\math.c(225): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1400): note: see declaration of '_vsnprintf'
+  matching.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  layout.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  xerbla.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  second.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  lsame.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  len_trim.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  ivout.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  iparmq.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  ilaenv.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  Generating Code...
+  Compiling...
+  iladlr.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  iladlc.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  ieeeck.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  idamax.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dvout.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dtrsyl.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dtrsna.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dtrsna.c(509): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+  dtrsm.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dtrsen.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dtrmv.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dtrmm.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dtrexc.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dtrevc.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dsytrd.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dsytd2.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dsyr2k.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dsyr2.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dsymv.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dsyevr.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dswap.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  Generating Code...
+  Compiling...
+  dstqrb.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dsterf.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dsteqr.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dstemr.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dstein.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dstebz.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dstats.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dstatn.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dsortr.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dsortc.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dsgets.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dseupd.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dsesrt.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dseigt.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dsconv.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dscal.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dsaupd.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dsaup2.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dsapps.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dsaitr.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  Generating Code...
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dsaitr.c(477): warning C4700: uninitialized local variable 'nrstrt' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dsaitr.c(508): warning C4700: uninitialized local variable 'tsaitr' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dsaitr.c(546): warning C4700: uninitialized local variable 'nopx' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dsaitr.c(567): warning C4700: uninitialized local variable 'tmvopx' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dsaitr.c(591): warning C4700: uninitialized local variable 'nbx' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dsaitr.c(614): warning C4700: uninitialized local variable 'tmvbx' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dsaitr.c(745): warning C4700: uninitialized local variable 'nrorth' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dsaitr.c(889): warning C4700: uninitialized local variable 'titref' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dsapps.c(611): warning C4700: uninitialized local variable 'tsapps' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dsaup2.c(899): warning C4700: uninitialized local variable 'nbx' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dsaupd.c(724): warning C4700: uninitialized local variable 'nopx' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dsaupd.c(725): warning C4700: uninitialized local variable 'nbx' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dsaupd.c(726): warning C4700: uninitialized local variable 'nrorth' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dsconv.c(159): warning C4700: uninitialized local variable 'tsconv' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dseigt.c(211): warning C4700: uninitialized local variable 'tseigt' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dsgets.c(239): warning C4700: uninitialized local variable 'tsgets' used
+  Compiling...
+  drot.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dormtr.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dormqr.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dormql.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dormhr.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dorm2r.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dorm2l.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dorgqr.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dorghr.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dorg2r.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dnrm2.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dngets.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dneupd.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dneigh.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dnconv.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dnaupd.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dnaup2.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dnapps.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dnaitr.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dmout.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  Generating Code...
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dnaitr.c(492): warning C4700: uninitialized local variable 'nrstrt' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dnaitr.c(523): warning C4700: uninitialized local variable 'tnaitr' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dnaitr.c(561): warning C4700: uninitialized local variable 'nopx' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dnaitr.c(583): warning C4700: uninitialized local variable 'tmvopx' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dnaitr.c(599): warning C4700: uninitialized local variable 'nbx' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dnaitr.c(623): warning C4700: uninitialized local variable 'tmvbx' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dnaitr.c(736): warning C4700: uninitialized local variable 'nrorth' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dnaitr.c(883): warning C4700: uninitialized local variable 'titref' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dnapps.c(786): warning C4700: uninitialized local variable 'tnapps' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dnaupd.c(723): warning C4700: uninitialized local variable 'nopx' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dnaupd.c(724): warning C4700: uninitialized local variable 'nbx' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dnaupd.c(725): warning C4700: uninitialized local variable 'nrorth' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dnconv.c(169): warning C4700: uninitialized local variable 'tnconv' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dneigh.c(367): warning C4700: uninitialized local variable 'tneigh' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dngets.c(252): warning C4700: uninitialized local variable 'tngets' used
+  Compiling...
+  dlatrd.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlasy2.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlaswp.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlassq.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlasrt.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlasr.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlasq6.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dlasq6.c(100): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dlasq6.c(124): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dlasq6.c(153): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+  dlasq5.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dlasq5.c(109): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dlasq5.c(122): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dlasq5.c(140): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dlasq5.c(160): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dlasq5.c(176): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dlasq5.c(197): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+  dlasq4.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlasq3.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dlasq3.c(212): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dlasq3.c(213): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dlasq3.c(275): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dlasq3.c(280): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+  dlasq2.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dlasq2.c(205): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dlasq2.c(284): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dlasq2.c(285): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dlasq2.c(305): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dlasq2.c(319): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dlasq2.c(374): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dlasq2.c(448): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dlasq2.c(450): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dlasq2.c(452): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dlasq2.c(507): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+  dlaset.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlascl.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlaruv.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlartg.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlarrv.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlarrr.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlarrk.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlarrj.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlarrf.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  Generating Code...
+  Compiling...
+  dlarre.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlarrd.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlarrc.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlarrb.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlarra.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlarnv.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlarfx.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlarft.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlarfg.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlarfb.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlarf.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlar1v.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlaqtr.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlaqrb.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlaqr5.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlaqr4.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlaqr3.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlaqr2.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlaqr1.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlaqr0.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  Generating Code...
+  Compiling...
+  dlapy2.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlanv2.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlansy.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlanst.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlanhs.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlange.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlaneg.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlamch.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlaln2.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlaisnan.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlahr2.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlahqr.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlagts.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlagtf.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlaexc.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dlaexc.c(210): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+  dlaev2.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlaebz.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlae2.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dladiv.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlacpy.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  Generating Code...
+  Compiling...
+  dlacn2.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dlabad.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  disnan.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dhseqr.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dgetv0.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dgetrs.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dgetrf.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dgetf2.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dgesv.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dger.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dgeqr2.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dgemv.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dgemm.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dgehrd.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dgehd2.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dgeevx.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dgeev.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dgebal.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dgebak.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  ddot.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  Generating Code...
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dgetv0.c(294): warning C4700: uninitialized local variable 'nopx' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dgetv0.c(321): warning C4700: uninitialized local variable 'tmvopx' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dgetv0.c(332): warning C4700: uninitialized local variable 'nbx' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dgetv0.c(346): warning C4700: uninitialized local variable 'tmvbx' used
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lapack\dgetv0.c(470): warning C4700: uninitialized local variable 'tgetv0' used
+  Compiling...
+  dcopy.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  daxpy.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dasum.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  lapack.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  lad.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lad.c(485): warning C4101: 'Gp_uneis': unreferenced local variable
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\lad.c(486): warning C4101: 'Gt_vneis': unreferenced local variable
+  iterators.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  interrupt.c
+  igraph_trie.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_trie.c(206): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_trie.c(242): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_trie.c(344): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+  igraph_strvector.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_strvector.c(164): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_strvector.c(343): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_strvector.c(498): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+  igraph_stack.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  igraph_set.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  igraph_psumtree.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  igraph_marked_queue.c
+  igraph_heap.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  igraph_hashtable.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_hashtable.c(91): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+  igraph_grid.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  igraph_fixed_vectorlist.c
+  igraph_estack.c
+  igraph_error.c
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): warning C4005: 'isnan': macro redefinition
+  c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): note: see previous definition of 'isnan'
+  igraph_buckets.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  Generating Code...
+  Compiling...
+  heap.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  hacks.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\hacks.c(50): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+  gml_tree.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  glpk_support.c
+  glet.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\glet.c(211): warning C4244: 'initializing': conversion from 'igraph_real_t' to 'igraph_integer_t', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\glet.c(216): warning C4244: 'initializing': conversion from 'igraph_real_t' to 'igraph_integer_t', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\glet.c(379): warning C4244: 'initializing': conversion from 'igraph_real_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\glet.c(487): warning C4244: 'initializing': conversion from 'igraph_real_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\glet.c(488): warning C4244: 'initializing': conversion from 'igraph_real_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\glet.c(628): warning C4244: 'initializing': conversion from 'igraph_real_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\glet.c(646): warning C4244: 'initializing': conversion from 'igraph_real_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\glet.c(662): warning C4244: 'initializing': conversion from 'igraph_real_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\glet.c(663): warning C4244: 'initializing': conversion from 'igraph_real_t' to 'int', possible loss of data
+  games.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  fortran_intrinsics.c
+  forestfire.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  foreign.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\foreign.c(99): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\foreign.c(103): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\foreign.c(732): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\foreign.c(753): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\foreign.c(790): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\foreign.c(810): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\foreign.c(824): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\foreign.c(841): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\foreign.c(1195): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\foreign.c(1259): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\foreign.c(1967): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\foreign.c(2548): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(476): note: see declaration of 'ctime'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\foreign.c(2744): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\foreign.c(2821): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\foreign.c(2824): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+  foreign-pajek-parser.c
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): warning C4005: 'isnan': macro redefinition
+  c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+foreign-pajek-parser.y(535): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+foreign-pajek-parser.y(537): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+foreign-pajek-parser.y(638): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+foreign-pajek-parser.y(665): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+  foreign-pajek-lexer.c
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): warning C4005: 'isnan': macro redefinition
+  c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): note: see previous definition of 'isnan'
+foreign-pajek-lexer.c(1875): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2459): note: see declaration of 'fileno'
+  foreign-ncol-parser.c
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): warning C4005: 'isnan': macro redefinition
+  c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+foreign-ncol-parser.y(141): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+foreign-ncol-parser.y(143): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+  foreign-ncol-lexer.c
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): warning C4005: 'isnan': macro redefinition
+  c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): note: see previous definition of 'isnan'
+foreign-ncol-lexer.c(1413): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2459): note: see declaration of 'fileno'
+  foreign-lgl-parser.c
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): warning C4005: 'isnan': macro redefinition
+  c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+foreign-lgl-parser.y(147): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+foreign-lgl-parser.y(149): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+  foreign-lgl-lexer.c
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): warning C4005: 'isnan': macro redefinition
+  c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): note: see previous definition of 'isnan'
+foreign-lgl-lexer.c(1419): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2459): note: see declaration of 'fileno'
+  foreign-graphml.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\foreign-graphml.c(1110): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\foreign-graphml.c(1112): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\foreign-graphml.c(1114): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\foreign-graphml.c(1116): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\foreign-graphml.c(1118): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+  foreign-gml-parser.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+foreign-gml-parser.y(188): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+  foreign-gml-lexer.c
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): warning C4005: 'isnan': macro redefinition
+  c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): note: see previous definition of 'isnan'
+foreign-gml-lexer.c(1460): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2459): note: see declaration of 'fileno'
+  foreign-dl-parser.c
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): warning C4005: 'isnan': macro redefinition
+  c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): note: see previous definition of 'isnan'
+  foreign-dl-lexer.c
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): warning C4005: 'isnan': macro redefinition
+  c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): note: see previous definition of 'isnan'
+foreign-dl-lexer.c(1640): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2459): note: see declaration of 'fileno'
+  Generating Code...
+  Compiling...
+  flow.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  feedback_arc_set.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  fast_community.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  z_sqrt.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  z_sin.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  z_log.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  z_exp.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  z_div.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  z_cos.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  z_abs.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  xwsne.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  wsne.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  wsle.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  wsfe.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  wrtfmt.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  wref.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\wref.c(99): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\wref.c(90): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\wref.c(117): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\wref.c(119): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\wref.c(246): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+  util.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  uninit.c
+  uio.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  typesize.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  Generating Code...
+  Compiling...
+  s_stop.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  s_rnge.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  s_paus.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\s_paus.c(65): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2459): note: see declaration of 'fileno'
+  s_copy.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  s_cmp.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  s_cat.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  system_.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  sue.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  sig_die.c
+  signbit.c
+  signal_.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\signal_.c(17): warning C4311: 'type cast': pointer truncation from '_crt_signal_t' to 'ftnint'
+  sfe.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  r_tanh.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  r_tan.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  r_sqrt.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  r_sinh.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  r_sin.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  r_sign.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  r_nint.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  r_mod.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  Generating Code...
+  Compiling...
+  r_log.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  r_lg10.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  r_int.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  r_imag.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  r_exp.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  r_dim.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  r_cosh.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  r_cos.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  r_cnjg.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  r_atn2.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  r_atan.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  r_asin.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  r_acos.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  r_abs.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  rsne.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  rsli.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  rsfe.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  rewind.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  rdfmt.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\rdfmt.c(71): warning C4554: '>>': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\rdfmt.c(93): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\rdfmt.c(382): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+  pow_zz.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  Generating Code...
+  Compiling...
+  pow_zi.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  pow_ri.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  pow_ii.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  pow_hh.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  pow_di.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  pow_dd.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  pow_ci.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  open.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\open.c(207): warning C4013: 'access' undefined; assuming extern returning int
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\open.c(192): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\open.c(219): warning C4996: 'tmpfile': This function or variable may be unsafe. Consider using tmpfile_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(430): note: see declaration of 'tmpfile'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\open.c(246): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\open.c(252): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\open.c(255): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\open.c(256): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\open.c(258): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\open.c(291): warning C4267: '=': conversion from 'size_t' to 'ftnlen', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\open.c(287): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+  l_lt.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  l_le.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  l_gt.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  l_ge.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  lwrite.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\lwrite.c(137): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+  lread.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\lread.c(220): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+  lbitshft.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  lbitbits.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\lbitbits.c(47): warning C4554: '>>': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\lbitbits.c(51): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\lbitbits.c(60): warning C4554: '>>': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\lbitbits.c(64): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+  i_sign.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  i_nint.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  i_mod.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  i_len.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  Generating Code...
+  Compiling...
+  i_indx.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  i_dnnt.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  i_dim.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  i_abs.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  inquire.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  ilnw.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  iio.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  i77vers.c
+  h_sign.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  h_nint.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  h_mod.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  h_len.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  h_indx.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  h_dnnt.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  h_dim.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  h_abs.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  hl_lt.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  hl_le.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  hl_gt.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  hl_ge.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  Generating Code...
+  Compiling...
+  getenv_.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(1289): warning C4005: 'max': macro redefinition
+  c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c.h(164): note: see previous definition of 'max'
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(1290): warning C4005: 'min': macro redefinition
+  c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c.h(163): note: see previous definition of 'min'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\getenv_.c(42): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(1191): note: see declaration of 'getenv'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\getenv_.c(48): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\getenv_.c(50): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(1191): note: see declaration of 'getenv'
+  ftell_.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  fmtlib.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  fmt.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  f77_aloc.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  f77vers.c
+  exit_.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  etime_.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\etime_.c(46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  err.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\err.c(118): warning C4013: 'isatty' undefined; assuming extern returning int
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\err.c(107): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2459): note: see declaration of 'fileno'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\err.c(118): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2459): note: see declaration of 'fileno'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\err.c(220): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(243): note: see declaration of 'freopen'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\err.c(222): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(243): note: see declaration of 'freopen'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\err.c(256): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(243): note: see declaration of 'freopen'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\err.c(263): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(243): note: see declaration of 'freopen'
+  erf_.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  erfc_.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  endfile.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\endfile.c(45): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\endfile.c(46): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\endfile.c(149): warning C4013: 'chsize' undefined; assuming extern returning int
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\endfile.c(149): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2459): note: see declaration of 'fileno'
+  ef1cmc_.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  ef1asc_.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  d_tanh.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  d_tan.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  d_sqrt.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  d_sinh.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  d_sin.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  d_sign.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  Generating Code...
+  Compiling...
+  d_prod.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  d_nint.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  d_mod.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  d_log.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  d_lg10.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  d_int.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  d_imag.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  d_exp.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  d_dim.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  d_cosh.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  d_cos.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  d_cnjg.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  d_atn2.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  d_atan.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  d_asin.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  d_acos.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  d_abs.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dummy.c
+  due.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dtime_.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\dtime_.c(47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  Compiling...
+  dolio.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  dfe.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  derf_.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  derfc_.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  c_sqrt.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  c_sin.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  c_log.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  c_exp.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  c_div.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  c_cos.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  c_abs.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  ctype.c
+  close.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\f2c\close.c(59): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(381): note: see declaration of 'unlink'
+  cabs.c
+  backspac.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  abort_.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  evolver_cit.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  eigen.c
+  dqueue.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  distances.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  Generating Code...
+  Compiling...
+  decomposition.c
+  cs_utsolve.c
+  cs_util.c
+  cs_usolve.c
+  cs_updown.c
+  cs_transpose.c
+  cs_tdfs.c
+  cs_symperm.c
+  cs_sqr.c
+  cs_spsolve.c
+  cs_schol.c
+  cs_scc.c
+  cs_scatter.c
+  cs_reach.c
+  cs_randperm.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cs\cs_randperm.c(21): warning C4068: unknown pragma
+  cs_qrsol.c
+  cs_qr.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cs\cs_qr.c(21): warning C4068: unknown pragma
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cs\cs_qr.c(36): warning C4244: '=': conversion from 'const double' to 'int', possible loss of data
+  cs_pvec.c
+  cs_print.c
+  cs_post.c
+  Generating Code...
+  Compiling...
+  cs_pinv.c
+  cs_permute.c
+  cs_norm.c
+  cs_multiply.c
+  cs_maxtrans.c
+  cs_malloc.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cs\cs_malloc.c(21): warning C4068: unknown pragma
+  cs_lusol.c
+  cs_lu.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cs\cs_lu.c(21): warning C4068: unknown pragma
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cs\cs_lu.c(34): warning C4244: '=': conversion from 'const double' to 'int', possible loss of data
+  cs_ltsolve.c
+  cs_lsolve.c
+  cs_load.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cs\cs_load.c(36): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+  cs_leaf.c
+  cs_ipvec.c
+  cs_house.c
+  cs_happly.c
+  cs_gaxpy.c
+  cs_fkeep.c
+  cs_etree.c
+  cs_ereach.c
+  cs_entry.c
+  Generating Code...
+  Compiling...
+  cs_dupl.c
+  cs_dropzeros.c
+  cs_droptol.c
+  cs_dmperm.c
+  cs_dfs.c
+  cs_cumsum.c
+  cs_counts.c
+  cs_compress.c
+  cs_cholsol.c
+  cs_chol.c
+  cs_amd.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cs\cs_amd.c(21): warning C4068: unknown pragma
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cs\cs_amd.c(22): warning C4068: unknown pragma
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cs\cs_amd.c(54): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  cs_add.c
+  cores.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  conversion.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  components.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  complex.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  community.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  cohesive_blocks.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  cocitation.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  cliques.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  Generating Code...
+  Compiling...
+  centrality.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  cattributes.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cattributes.c(68): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cattributes.c(277): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cattributes.c(467): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cattributes.c(955): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cattributes.c(1081): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cattributes.c(1294): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cattributes.c(1495): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cattributes.c(1597): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cattributes.c(2672): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cattributes.c(2730): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cattributes.c(2790): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cattributes.c(2852): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cattributes.c(2915): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cattributes.c(2980): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cattributes.c(3042): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cattributes.c(3105): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cattributes.c(3170): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cattributes.c(3237): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cattributes.c(3302): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cattributes.c(3369): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cattributes.c(3435): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cattributes.c(3501): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\cattributes.c(3568): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+  blas.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  bipartite.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\bipartite.c(907): warning C4244: 'function': conversion from 'time_t' to 'unsigned long', possible loss of data
+  bignum.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  bigint.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  bfgs.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  basic_query.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  attributes.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\attributes.c(330): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+  atlas.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  array.c
+  arpack.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\arpack.c(645): warning C4018: '<': signed/unsigned mismatch
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\arpack.c(705): warning C4018: '<': signed/unsigned mismatch
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\arpack.c(710): warning C4018: '<': signed/unsigned mismatch
+  adjlist.c
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\winclude\config.h(168): warning C4005: 'isnan': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(276): note: see previous definition of 'isnan'
+  Generating Code...
+cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  walktrap_heap.cpp
+  walktrap_graph.cpp
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\walktrap_graph.cpp(164): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\walktrap_graph.cpp(186): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\walktrap_graph.cpp(187): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\walktrap_graph.cpp(227): warning C4267: 'return': conversion from 'size_t' to 'long', possible loss of data
+  walktrap_communities.cpp
+  walktrap.cpp
+  prpack.cpp
+  pottsmodel_2.cpp
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\netdatatypes.h(209): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+  NetRoutines.cpp
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\netdatatypes.h(209): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\netroutines.cpp(95): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\netroutines.cpp(99): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+  NetDataTypes.cpp
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\netdatatypes.h(209): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\netdatatypes.cpp(61): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\netdatatypes.cpp(65): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\netdatatypes.cpp(98): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+  infomap_Node.cc
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\infomap_node.cc(47): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\infomap_node.cc(54): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\infomap_node.cc(61): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  infomap_Greedy.cc
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\infomap_greedy.cc(59): warning C4267: '=': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\infomap_greedy.cc(83): warning C4244: 'argument': conversion from 'time_t' to 'unsigned long', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\infomap_greedy.cc(117): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\infomap_greedy.cc(142): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\infomap_greedy.cc(282): warning C4267: '-=': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\infomap_greedy.cc(289): warning C4267: '+=': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\infomap_greedy.cc(378): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\infomap_greedy.cc(408): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\infomap_greedy.cc(479): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\infomap_greedy.cc(541): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\infomap_greedy.cc(554): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\infomap_greedy.cc(586): warning C4267: '-=': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\infomap_greedy.cc(591): warning C4267: '+=': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+  infomap_FlowGraph.cc
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\infomap_flowgraph.cc(135): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\infomap_flowgraph.cc(136): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\infomap_flowgraph.cc(226): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\infomap_flowgraph.cc(243): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\infomap_flowgraph.cc(252): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\infomap_flowgraph.cc(314): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  infomap.cc
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\infomap.cc(88): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\infomap.cc(107): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\infomap.cc(130): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\infomap.cc(300): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  igraph_hrg_types.cc
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_hrg_types.cc(1228): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_hrg_types.cc(1243): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_hrg_types.cc(1365): warning C4244: 'initializing': conversion from 'igraph_real_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_hrg_types.cc(1366): warning C4244: 'initializing': conversion from 'igraph_real_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_hrg_types.cc(1385): warning C4244: '=': conversion from 'igraph_real_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_hrg_types.cc(1386): warning C4244: '=': conversion from 'igraph_real_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_hrg_types.cc(2902): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  igraph_hrg.cc
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_hrg.cc(357): warning C4244: 'argument': conversion from 'time_t' to 'unsigned long', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_hrg.cc(464): warning C4244: 'argument': conversion from 'time_t' to 'unsigned long', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_hrg.cc(573): warning C4244: 'initializing': conversion from 'igraph_real_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_hrg.cc(574): warning C4244: 'initializing': conversion from 'igraph_real_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_hrg.cc(636): warning C4244: 'argument': conversion from 'time_t' to 'unsigned long', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_hrg.cc(826): warning C4244: 'argument': conversion from 'time_t' to 'unsigned long', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_hrg.cc(928): warning C4244: 'initializing': conversion from 'igraph_real_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_hrg.cc(948): warning C4244: 'initializing': conversion from 'igraph_real_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_hrg.cc(974): warning C4244: 'initializing': conversion from 'igraph_real_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_hrg.cc(983): warning C4244: 'initializing': conversion from 'igraph_real_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_hrg.cc(997): warning C4244: 'initializing': conversion from 'igraph_real_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_hrg.cc(998): warning C4244: 'initializing': conversion from 'igraph_real_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\igraph_hrg.cc(999): warning C4244: 'initializing': conversion from 'igraph_real_t' to 'int', possible loss of data
+  gengraph_random.cpp
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\gengraph_random.h(52): warning C4244: 'return': conversion from 'igraph_real_t' to 'int', possible loss of data
+  gengraph_powerlaw.cpp
+  gengraph_mr-connected.cpp
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\gengraph_random.h(52): warning C4244: 'return': conversion from 'igraph_real_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\gengraph_mr-connected.cpp(140): warning C4244: 'initializing': conversion from 'igraph_real_t' to 'long', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\gengraph_mr-connected.cpp(145): warning C4244: 'argument': conversion from 'time_t' to 'unsigned long', possible loss of data
+  gengraph_graph_molloy_optimized.cpp
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\gengraph_random.h(52): warning C4244: 'return': conversion from 'igraph_real_t' to 'int', possible loss of data
+  gengraph_graph_molloy_hash.cpp
+  gengraph_degree_sequence.cpp
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\gengraph_random.h(52): warning C4244: 'return': conversion from 'igraph_real_t' to 'int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\gengraph_degree_sequence.cpp(97): warning C4244: '=': conversion from 'igraph_real_t' to 'int', possible loss of data
+  Generating Code...
+  Compiling...
+  gengraph_box_list.cpp
+  drl_parse.cpp
+  drl_layout_3d.cpp
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\drl_layout_3d.cpp(110): warning C4244: 'argument': conversion from 'time_t' to 'unsigned long', possible loss of data
+  drl_layout.cpp
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\drl_layout.cpp(459): warning C4244: 'argument': conversion from 'time_t' to 'unsigned long', possible loss of data
+  drl_graph_3d.cpp
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\drl_graph_3d.cpp(322): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\drl_graph_3d.cpp(323): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\drl_graph_3d.cpp(325): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\drl_graph_3d.cpp(357): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\drl_graph_3d.cpp(844): warning C4267: 'initializing': conversion from 'size_t' to 'long', possible loss of data
+  drl_graph.cpp
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\drl_graph.cpp(670): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\drl_graph.cpp(671): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\drl_graph.cpp(673): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\drl_graph.cpp(705): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\drl_graph.cpp(1277): warning C4267: 'initializing': conversion from 'size_t' to 'long', possible loss of data
+  DensityGrid_3d.cpp
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\densitygrid_3d.cpp(148): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  DensityGrid.cpp
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\densitygrid.cpp(139): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  clustertool.cpp
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\netdatatypes.h(209): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+  bliss_utils.cc
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\bliss_utils.cc(54): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+  bliss_timer.cc
+  bliss_partition.cc
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\bliss_graph.hh(224): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+  bliss_orbit.cc
+  bliss_heap.cc
+  bliss_graph.cc
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\bliss_graph.hh(224): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\bliss_graph.cc(942): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\bliss_graph.cc(942): warning C4267: 'initializing': conversion from 'size_t' to 'const unsigned int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\bliss_graph.cc(1030): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\bliss_graph.cc(1097): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\bliss_graph.cc(1097): warning C4267: 'initializing': conversion from 'size_t' to 'const unsigned int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\bliss_graph.cc(1171): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\bliss_graph.cc(1215): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\bliss_graph.cc(1215): warning C4267: 'initializing': conversion from 'size_t' to 'const unsigned int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\bliss_graph.cc(1257): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\bliss_graph.cc(1266): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\bliss_graph.cc(1437): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\bliss_graph.cc(1437): warning C4267: 'initializing': conversion from 'size_t' to 'const unsigned int', possible loss of data
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\bliss_graph.cc(1680): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\bliss_graph.cc(2018): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  bliss_eqrefhash.cc
+  bliss.cc
+c:\users\lenovo\igraph\igraph-0.7.1-msvc\src\bliss_graph.hh(224): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+  Generating Code...
+gengraph_random.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+drl_parse.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+  igraph.vcxproj -> C:\Users\lenovo\Igraph\igraph-0.7.1-msvc\Debug\igraph.lib
